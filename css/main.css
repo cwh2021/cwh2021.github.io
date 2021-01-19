@@ -2818,9 +2818,13 @@ mark.search-keyword {
   }
 }
 body {
-  background: url("/images/1.jpg");
+  background: url("/images/1.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 50% 50%;
+}
+.sidebar {
+  box-shadow: none;
+  background: none;
 }
