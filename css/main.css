@@ -2883,8 +2883,8 @@ mark.search-keyword {
     margin-bottom: 10px;
   }
 }
-.body {
-  background: url("D:MyBlogthemesnextsourceimages1.png");
+body {
+  background: url("imagesbackground.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
