@@ -33,7 +33,7 @@
 <meta property="og:image" content="http://cwh2021.github.io/images/t1.jpg">
 <meta property="og:image" content="http://cwh2021.github.io/images/t2.png">
 <meta property="article:published_time" content="2021-01-27T06:33:24.000Z">
-<meta property="article:modified_time" content="2021-01-29T01:49:14.763Z">
+<meta property="article:modified_time" content="2021-01-29T02:46:56.741Z">
 <meta property="article:author" content="Clxsky Krusty">
 <meta property="article:tag" content="PYMOL">
 <meta name="twitter:card" content="summary">
@@ -298,7 +298,7 @@
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-01-29 09:49:14" itemprop="dateModified" datetime="2021-01-29T09:49:14+08:00">2021-01-29</time>
+        <time title="Modified: 2021-01-29 10:46:56" itemprop="dateModified" datetime="2021-01-29T10:46:56+08:00">2021-01-29</time>
       </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -409,29 +409,26 @@
 <p><code>Pmw‑2.0.1‑py3‑none‑any.whl</code></p>
 <p>搜索<code>Numpy+MKL</code>，下载对应于系统和Python版本的如下文件：</p>
 <p><code>numpy‑1.19.5+mkl‑cp39‑cp39‑win_amd64.whl</code></p>
-<details class="note "><summary><p>[danger]</p>
-</summary>
-<p>注意：一定要记住自己的安装路径！可以先创建一个文件夹将以上文件都放进去。</p>
-
-</details>
+<div class="note danger"><p>注意：一定要记住自己的安装路径！可以先创建一个文件夹将以上文件都放进去。</p>
+</div>
 
 <h5 id="3-PYMOL安装"><a href="#3-PYMOL安装" class="headerlink" title="3. PYMOL安装"></a>3. PYMOL安装</h5><p><code>Win_R</code>，输入cmd打开管理员窗口，将目录转换到刚才建立的文件夹下，我的命令如下（按照自己的路径修改）：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:\Krusty Studio\pymol</span><br></pre></td></tr></table></figure>
+<figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">E:<span class="string">\Krusty</span> Studio<span class="string">\pymol</span></span><br></pre></td></tr></table></figure>
 <p>然后依次输入命令</p>
 <p>安装numpy+mkl：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install numpy‑1.19.5+mkl‑cp39‑cp39‑win_amd64.whl</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">pip3</span> install numpy‑<span class="number">1</span>.<span class="number">19</span>.<span class="number">5</span>+mkl‑cp<span class="number">39</span>‑cp<span class="number">39</span>‑win_amd<span class="number">64</span>.whl</span><br></pre></td></tr></table></figure>
 <p>安装Pmw：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install Pmw‑2.0.1‑py3‑none‑any.whl</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">pip3</span> install Pmw‑<span class="number">2</span>.<span class="number">0</span>.<span class="number">1</span>‑py<span class="number">3</span>‑none‑any.whl</span><br></pre></td></tr></table></figure>
 <p>安装pymol_launcher：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install pymol_launcher‑2.1‑cp39‑cp39‑win_amd64.whl</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">pip3</span> install pymol_launcher‑<span class="number">2</span>.<span class="number">1</span>‑cp<span class="number">39</span>‑cp<span class="number">39</span>‑win_amd<span class="number">64</span>.whl</span><br></pre></td></tr></table></figure>
 <p>安装pymol：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install pymol‑2.5.0a0‑cp39‑cp39‑win_amd64.whl</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">pip3</span> install pymol‑<span class="number">2</span>.<span class="number">5</span>.<span class="number">0</span>a<span class="number">0</span>‑cp<span class="number">39</span>‑cp<span class="number">39</span>‑win_amd<span class="number">64</span>.whl</span><br></pre></td></tr></table></figure>
 <p>安装完成之后可以继续输入<code>pip3 list</code>，在出现的列表中看到刚才安装的东西，就说明我们安装成功了。</p>
 <p>然后打开Python的路径，就可以发现多了一个<code>PyMOL.exe</code>，可以右键创建快捷方式到桌面或固定到“开始”屏幕，就可以开始使用了。打开后的页面如下：</p>
 <p><img src="/images/t2.png"></p>
 <h5 id="4-安装过程中遇到的问题和解决方法"><a href="#4-安装过程中遇到的问题和解决方法" class="headerlink" title="4. 安装过程中遇到的问题和解决方法"></a>4. 安装过程中遇到的问题和解决方法</h5><p>问题一：在命令框中输入命令之后我遇到了报错，即系统显示找不到所需的文件和文件夹，查询资料其实原因我也没有特别搞清楚，但是在每条命令后加上<code> --user</code>后即可解决问题。</p>
 <p>问题二：打开PYMOL之后发现他是两个窗口，和教学版本不同，想把两个窗口合并需要安装另外一个Python程序PyQt5。在cmd命令行输入：</p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">pip3 install PyQt5</span><br></pre></td></tr></table></figure>
+<figure class="highlight apache"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="attribute">pip3</span> install PyQt<span class="number">5</span></span><br></pre></td></tr></table></figure>
 <p>安装成功后再次打开就会合并成为一个窗口了（如果安装失败的话也可以试一下在命令后面加上<code> --user</code>，根据刚刚的教训，我直接这么干了，没有报错）。</p>
 
     </div>
